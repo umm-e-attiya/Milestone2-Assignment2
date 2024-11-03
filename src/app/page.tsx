@@ -1,101 +1,137 @@
 import Image from "next/image";
 
-export default function Home() {
+<link rel="stylesheet" href="globals.css" />
+import Dazzle_Pink_Luxury_Dress_For_Women1 from "../../public/Dazzle_Pink_Luxury_Dress_For_Women1.jpg"
+import Evelyn_Green_Luxury_Dress2 from "../../public/Evelyn_Green_Luxury_Dress2.jpg"
+import Saga_Blue_Luxury_Dress3 from "../../public/Saga_Blue_Luxury_Dress3.jpg"
+import Amelia_Luxury_Dress4 from "../../public/Amelia_Luxury_Dress4.jpg"
+import silkpic1 from "../../public/silkpic1.webp"
+import silkpic2 from "../../public/silkpic2.jpeg"
+import silkpic3 from "../../public/silkpic3.jpeg"
+import silkpic4 from "../../public/silkpic4.jpg"
+import printedkurti1 from "../../public/printedkurti1.webp"
+import printedkurti2 from "../../public/printedkurti2.webp"
+import printedkurti3 from "../../public/printedkurti3.webp"
+import printedkurti4 from "../../public/printedkurti4.webp"
+      export default function Home () {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+            <div>
+             
+              <div id="container2">
+                <h1>Collections'24</h1>
+              </div>
+              
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+                <div>
+                  <h1  id="home1">Occasion Wear'24</h1></div>
+
+
+                  <div id="occasion">
+
+                    <div id="image2">
+                      <Image src={Dazzle_Pink_Luxury_Dress_For_Women1} alt="Dazzle_Pink_Luxury_Dress_For_Women1" />
+                      <p>Dazzle Pink Luxury</p>
+                      <span>8000Pkr</span>
+                    </div>
+
+                    <div id="image3">
+                      <Image src={Evelyn_Green_Luxury_Dress2} alt="Evelyn_Green_Luxury_Dress2"/>
+                      <p>Evelyn Green Luxury</p>
+                      <span>8000pkr</span>
+                    </div>
+
+                    <div id="image4">
+                      <Image src={Saga_Blue_Luxury_Dress3} alt="Saga_Blue_Luxury_Dress3" />
+                      <p>Saga Blue Luxury</p>
+                      <span>8000Pkr</span>
+                    </div>
+                    
+                    
+                    <div id="image5">
+                      <Image src={Amelia_Luxury_Dress4} alt="Amelia_Luxury_Dress4" />
+                      <p>Amelia Luxury</p>
+                      <span>8000Pkr</span>
+                    </div>
+                    </div>
+
+                    <div id="button1">
+                      <button>View Product</button>
+                    </div>
+               
+               
+                   <div id="home2">
+                      <h1>Women's Silk</h1>
+                   </div>
+
+
+                   <div id="silk">
+
+                         <div id="image6">
+                         <Image src={silkpic1} alt="Sia Green Silk"/>
+                         <p>Sia Green Silk</p>
+                         <span>12000Pkr</span>
+                         </div>
+                         <div id="image7">
+                         <Image src={silkpic2} alt="Dark Blue Silk"/>
+                         <p>Dark Blue Silk</p>
+                         <span>12000Pkr</span>
+                          </div>
+
+                          <div id="image8">
+                         <Image src={silkpic3} alt="Light Golden Silk"/>
+                         <p>Light Golden Silk</p>
+                         <span>12000Pkr</span>
+                         </div>
+
+                         <div id="image9">
+                         <Image src={silkpic4} alt="Ivory Gold Pure Silk"/>
+                         <p>Ivory Gold Pure Silk</p>
+                         <span>12000Pkr</span>
+                        </div>
+                        </div>
+                        <div id="button2">
+                      <button>View Product</button>
+                       </div>
+                       
+                        <div id="home3"><h1>Printed Kurtis</h1></div>
+
+                        <div id="printedkurti">
+                        <div id="image10">
+                         <Image src={printedkurti1} alt="Light Frozen Printed Kurti"/>
+                         <p>Light Frozen Printed Kurti</p>
+                         <span>2000Pkr</span>
+                        </div>
+
+                        <div id="image11">
+                         <Image src={printedkurti2} alt="Cathine Printed Kurti"/>
+                         <p>Cathine Printed Kurti</p>
+                         <span>2000Pkr</span>
+                        </div>
+
+                        <div id="image12">
+                         <Image src={printedkurti3} alt="Reoche Printed Kurti"/>
+                         <p>Reoche Printed Kurti</p>
+                         <span>2000Pkr</span>
+                        </div>
+
+                        <div id="image13">
+                         <Image src={printedkurti4} alt="Darkil Printed Kurti"/>
+                         <p>Darkil Printed Kurti</p>
+                         <span>2000Pkr</span>
+                        </div>
+                       </div>
+
+                       <div id="button3">
+                      <button>View Product</button>
+                       </div>
+
+               
+               <div id="home4">
+                    <h1 id="wcu1">Why Choose Us?</h1>
+                    <p id="wcu2">Choose us for our unique style and commitment to quality, where every piece is crafted with care and reflects the latest trends while remaining timeless. We prioritize sustainability and inclusivity, ensuring our collections cater to diverse body types and eco-conscious shoppers. With personalized service and a strong community focus, we aim to create a memorable shopping experience that resonates with your values and style.</p>
+               </div>
+               
+               </div>
+        
   );
 }
