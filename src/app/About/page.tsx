@@ -1,5 +1,5 @@
 import React from "react";
-<link rel="stylesheet" href="globals.css" />
+
 import Image from "next/image";
 import pic1 from "../../../public/pic1.jpg"
 

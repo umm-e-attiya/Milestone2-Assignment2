@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-<link rel="stylesheet" href="globals.css" />
+import react from "react"
 import Dazzle_Pink_Luxury_Dress_For_Women1 from "../../public/Dazzle_Pink_Luxury_Dress_For_Women1.jpg"
 import Evelyn_Green_Luxury_Dress2 from "../../public/Evelyn_Green_Luxury_Dress2.jpg"
 import Saga_Blue_Luxury_Dress3 from "../../public/Saga_Blue_Luxury_Dress3.jpg"
@@ -13,17 +13,18 @@ import printedkurti1 from "../../public/printedkurti1.webp"
 import printedkurti2 from "../../public/printedkurti2.webp"
 import printedkurti3 from "../../public/printedkurti3.webp"
 import printedkurti4 from "../../public/printedkurti4.webp"
+import Link from "next/link";
       export default function Home () {
   return (
             <div>
              
               <div id="container2">
-                <h1>Collections'24</h1>
+                <h1>Collections 24</h1>
               </div>
               
 
                 <div>
-                  <h1  id="home1">Occasion Wear'24</h1></div>
+                  <h1  id="home1">Occasion Wear 24</h1></div>
 
 
                   <div id="occasion">
@@ -60,7 +61,7 @@ import printedkurti4 from "../../public/printedkurti4.webp"
                
                
                    <div id="home2">
-                      <h1>Women's Silk</h1>
+                      <h1>Women s Silk</h1>
                    </div>
 
 
