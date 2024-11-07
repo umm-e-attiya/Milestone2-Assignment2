@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import react from "react"
+
 import Dazzle_Pink_Luxury_Dress_For_Women1 from "../../public/Dazzle_Pink_Luxury_Dress_For_Women1.jpg"
 import Evelyn_Green_Luxury_Dress2 from "../../public/Evelyn_Green_Luxury_Dress2.jpg"
 import Saga_Blue_Luxury_Dress3 from "../../public/Saga_Blue_Luxury_Dress3.jpg"
@@ -13,7 +13,7 @@ import printedkurti1 from "../../public/printedkurti1.webp"
 import printedkurti2 from "../../public/printedkurti2.webp"
 import printedkurti3 from "../../public/printedkurti3.webp"
 import printedkurti4 from "../../public/printedkurti4.webp"
-import Link from "next/link";
+
       export default function Home () {
   return (
             <div>

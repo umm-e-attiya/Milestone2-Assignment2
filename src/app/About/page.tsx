@@ -1,5 +1,3 @@
-import React from "react";
-
 import Image from "next/image";
 import pic1 from "../../../public/pic1.jpg"
 
